@@ -1,24 +1,43 @@
+body {
+    font-family:"Raleway",sans-serif;
+}
 h1 {
     text-align: center;
+    font-size: 4rem;
+    color: #de1c85;
+    font-weight: 100;
 }
 
 ul{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+    font-weight: bold;
+    font-size: 1.25rem;
+    align-items: center;
 }
 
 body h2 {
     text-align: center;
+    padding: 0.5em;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
 }
 
 #y1950s {
     display: flex;
     flex-direction: row;
+    
 }
 
 .event {
     width: 50%;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    margin:5px;
+    padding: 10px;
 }
 
 #y1960s {
