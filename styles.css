@@ -10,87 +10,43 @@ ul{
 
 body h2 {
     text-align: center;
-    grid-area: z;
 }
 
-.cards:not(h2) {
-    display: grid;
-    color: red;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
-    grid-template-areas: "z z"
-                         "a b"
-                         "o o"
-                         "c d"
-                         "x x"
-                         "e f"
-                         "w w"
-                         "g h"
-                         "v v"
-                         "i j"
-                         "u u"
-                         "k l"
-                         "t t"
-                         "m n";
-
+#y1950s {
+    display: flex;
+    flex-direction: row;
 }
 
-#y1950s .event1 {
-    grid-area: a;
+.event {
+    width: 50%;
 }
 
-#y1950s .event2 {
-    grid-area: b;
+#y1960s {
+    display: flex;
+    flex-direction: row;
 }
 
-#s60 h2 {
-    grid-area: o;
+#y1970s {
+    display: flex;
+    flex-direction: row;
 }
 
-#y1960s .event1 {
-    grid-area: c;
+#y1980s {
+    display: flex;
+    flex-direction: row;
 }
 
-#y1960s .event2 {
-    grid-area: d;
+#y1990s {
+    display: flex;
+    flex-direction: row;
 }
 
-#y1970s .event1 {
-    grid-area: e;
+#y2000s {
+    display: flex;
+    flex-direction: row;
 }
 
-#y1970s .event2 {
-    grid-area: f;
-}
-
-#y1980s .event1 {
-    grid-area: g;
-}
-
-#y1980s .event2 {
-    grid-area: h;
-}
-
-#y1990s .event1 {
-    grid-area: i;
-}
-
-#y1990s .event2 {
-    grid-area: j;
-}
-
-#y2000s .event1 {
-    grid-area: k;
-}
-
-#y2000s .event2 {
-    grid-area: l;
-}
-
-#y2010s .event1 {
-    grid-area: m;
-}
-
-#y2010s .event2 {
-    grid-area: n;
+#y2010s {
+    display: flex;
+    flex-direction: row;
 }
