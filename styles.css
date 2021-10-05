@@ -21,22 +21,23 @@ ul{
     font-weight: bold;
     font-size: 1.25rem;
     align-items: center;
-    padding: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     border: 2px;
     border-color: black;
     border-style: solid;
 }
 
-a {
+a:not(.top-button) {
     color: black;
 }
 
 .scale:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     color: #de1c85;
 }
 
-a:hover {
+a:hover:not(#credits) {
     color: #de1c85;
 }
 
@@ -106,6 +107,8 @@ body h2 {
 
 h2 {
     color: #de1c85;
+    background-color: white;
+    margin: 35px;
 }
 
 img:not(#banner) {
@@ -120,7 +123,7 @@ img:not(#banner) {
     height: 100vh;
 }
 
-button {
+button:not(.top-button) {
     background-color: white;
     padding: 0.5rem;
     display: flex;
@@ -155,4 +158,48 @@ button {
     border-bottom-color: white;
     padding-left:15px;
 
+
+}
+
+.subtitles {
+    font-size: 2em;
+    font-weight: 200;
+}
+
+p {
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 2em;
+    font-size: 1.25em;
+}
+
+h3 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+footer {
+    background-color: #de1c85;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#credits:hover {
+    color:white;
+}
+
+.top-button {
+    align-self: center;
+    margin: 4px;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 1em;
+    font-weight: 200;
+    color: white;
+    background-color: black;
+    
 }
