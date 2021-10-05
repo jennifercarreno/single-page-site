@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family:"Raleway",sans-serif;
 }
@@ -6,6 +10,7 @@ h1 {
     font-size: 4rem;
     color: #de1c85;
     font-weight: 100;
+    padding: 1em;
 
 }
 
@@ -16,72 +21,86 @@ ul{
     font-weight: bold;
     font-size: 1.25rem;
     align-items: center;
+    padding: 0.5rem;
     border: 2px;
     border-color: black;
     border-style: solid;
+}
+
+a {
+    color: black;
+}
+
+.scale:hover {
+    transform: scale(1.1);
+    color: #de1c85;
+}
+
+a:hover {
+    color: #de1c85;
 }
 
 body h2 {
     text-align: center;
     padding: 0.5em;
-    border: 2px;
-    border-color: black;
-    border-style: solid;
 }
 
 #y1950s {
     display: flex;
     flex-direction: row;
-    height: 95vh;
+    height: 100vh;
+    margin: 20px;
     
 }
 
 .event {
     width: 50%;
-    border: 2px;
-    border-color: black;
-    border-style: solid;
-    margin:5px;
-    padding: 10px;
 }
+
 
 #y1960s {
     display: flex;
     flex-direction: row;
-    height: 95vh;
+    height: 100vh;
+    margin: 20px;
+   
 }
 
 #y1970s {
     display: flex;
     flex-direction: row;
-    height: 95vh;
+    height: 100vh;
 }
 
 #y1980s {
     display: flex;
     flex-direction: row;
-    height: 95vh;
+    height: 100vh;
+    margin: 20px;
 
 }
 
 #y1990s {
     display: flex;
     flex-direction: row;
-    height: 95vh;
+    height: 100vh;
+    margin: 20px;
 
 }
 
 #y2000s {
     display: flex;
     flex-direction: row;
-    height: 95vh;
+    height: 100vh;
+    margin: 20px;
 
 }
 
 #y2010s {
     display: flex;
     flex-direction: row;
-    height: 95vh;
+    height: 100vh;
+    margin: 20px;
 
 }
 
@@ -89,10 +108,51 @@ h2 {
     color: #de1c85;
 }
 
-img {
+img:not(#banner) {
     display: block;
     margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    /* width: 45%; */
+}
+
+#welc {
+    height: 100vh;
+}
+
+button {
+    background-color: white;
+    padding: 0.5rem;
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+    float: right;
+    margin: 0.5em;
+    border: 2px;
+    border-style: solid;
+    border-color: #de1c85;
+}
+
+.e1 {
+    height:100%;
+    border-right: 15px;
+    border-right-color: #de1c85;
+    border-style: solid;
+    border-top-color: white;
+    border-left-color: white;
+    border-bottom-color: white;
+    padding-right:15px;
+}
+
+.e2 {
+    height: 100%;
+    border-left: 15px;
+    /* border-bottom-left-radius: 3px; */
+    border-left-color: #de1c85;
+    border-style:solid;
+    border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+    padding-left:15px;
+
 }
