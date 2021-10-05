@@ -193,13 +193,13 @@ footer {
 }
 
 .top-button {
-    align-self: center;
-    margin: 4px;
-    padding: 20px;
-    border-radius: 50%;
-    font-size: 1em;
-    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     background-color: black;
-    
+    font-size: 1.25em;
+    margin: 20px;
+    border-radius: 50%;
+    border-color: #de1c85;
 }
